@@ -1,0 +1,40 @@
+.box
+{
+    width:430px;
+    height:auto;
+    box-shadow:5px 5px 5px 5px rgb(214, 214, 214);
+    margin:10px 500px 0px 500px;
+    border-radius: 10px;
+    background-color: rgb(208, 204, 208);
+    opacity: 0.9;
+} 
+body{
+    background : #f3f2ef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+    width: 100vw;
+    /* font-family: "Jost" ,sans-serif; */
+  background-image: url("http://www.psdgraphics.com/file/weather-icon.jpg");
+  background-size: cover;
+  backdrop-filter: blur;
+  /* background-attachment: fixed; */
+}
+.weather{
+  padding:30px 10px 0px 40px;
+}
+.city{
+  padding:10px 40px 10px 40px;
+  border-radius: 10px;
+}
+button{
+  margin-left: 10px;
+  padding:10px 20px 10px 20px;
+  border-radius: 10px;
+  background-color: rgb(231, 228, 233);
+}
+.i{
+  margin-left: 80px;
+}
